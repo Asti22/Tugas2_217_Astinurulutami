@@ -1,13 +1,16 @@
-/* Mengatur background dan font dasar */
+
 body {
-    background-color: #e4d9e6;  /* Warna latar belakang soft */
+    background-image: url('s★rg!rl🎸.jpeg'); /* Ganti dengan gambar yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
-/* Styling untuk container utama */
 .container {
     width: 350px;
     background-color: #d52525;
@@ -15,10 +18,9 @@ body {
     margin: 50px auto;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
 }
 
-/* Heading utama */
 h1 {
     font-size: 24px;
     font-weight: bold;
@@ -27,30 +29,26 @@ h1 {
 }
 
 .penyanyi-rapper img{
-    width: 100%;  /* Gambar menyesuaikan lebar container */
-    max-width: 120px;  /* Maksimal lebar gambar */
-    height: 150px;  /* Menjaga proporsi gambar */
+    width: 100%;  
+    max-width: 120px;  
+    height: 150px;  
     display: block;
-    margin: 0 auto;  /* Agar gambar tetap di tengah */
+    margin: 0 auto;  
     border-radius: 10px;
 }
 
-
-
-/* Mantra atau slogan */
 h2 {
     font-size: 18px;
-    color: rgb(225, 202, 206);
+    color: rgb(237, 185, 195);
     font-style: italic;
     margin-bottom: 10px;
 }
 
-/* Tambahan jika ada deskripsi */
 .deskripsi {
     text-align: left;
     font-size: 14px;
     margin-top: 15px;
     padding: 10px;
-    background-color: #f0d6d6;
+    background-color: #231010;
     border-radius: 5px;
 }
